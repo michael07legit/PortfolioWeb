@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    background-color: rgb(24, 24, 27);
+}
+.logo {
+    display: inline-block;
+    color: white;
+    height: 40px;
+    padding-top: 15px;
+}
+.head-button, .contact-button {
+    font-family: roboto, arial;
+    color: white;
+    background-color: rgb(24, 24, 27);
+    height: 100%;
+    width: 80px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-right: 7px;
+    transition: background-color 0.2s, color 0.2s, width 0.2s;
+}
+.head-button:hover {
+    background-color: rgb(160, 175, 48);
+    color: rgb(24, 24, 27);
+    width: 90px;
+}
+
+.contact-button:hover {
+    background-color: rgb(160, 175, 48);
+    color: rgb(24, 24, 27);
+}
+.head-button:active,
+.contact-button:active {
+    background-color: white;
+}
+.study-button {
+    margin-right: 60px;
+}
+

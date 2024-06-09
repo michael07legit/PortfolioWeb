@@ -1,0 +1,87 @@
+.main-section {
+    display: flex;
+}
+.my-picture {
+    width: 350px;
+    margin-left: 20px;
+    z-index: 1;
+    box-shadow: 5px 5px 15px;
+}
+.picture {
+    position: relative;
+    height: 470px;
+    width: 100%;
+    z-index: 1;
+}
+.introduction {
+    position: absolute;
+    color: white;
+    font-family: roboto, arial;
+    font-weight: bold;
+    font-size: 48px;
+    background-color: rgba(24, 24, 27, 0.8);
+    left: 220px;
+    top: 30px;
+    padding: 10px;
+    z-index: 2;
+}
+.michael {
+    color: rgb(160, 175, 48);
+}
+.description {
+    font-family: roboto, arial;
+    font-size: 20px;
+    color: white;
+    padding-left: 380px;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+    z-index: 0;
+}
+.info-color-2 {
+    color: rgb(160, 175, 48);
+}
+.info-color-3 {
+    color: rgb(205, 134, 3);
+}
+.about-me {
+    top: 500px;
+    position: absolute;
+    left: 400px;
+    border: none;
+    font-family: roboto, arial;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 3;
+    width: 110px;
+    height: 30px;
+    box-shadow: 5px 5px 40px black;
+    transition: height 0.2s, width 0.2s;
+}
+.about-me:hover {
+    height: 33px;
+    width: 120px;
+}
+.about-me:active {
+    background-color: black;
+    color: white;
+}
+@media (min-width: 645px) and (max-width: 745px) {
+    .about-me {
+        top: 570px;
+
+    }
+}
+@media (min-width: 746px) and (max-width: 975px) {
+    .about-me {
+        top: 540px;
+
+    }
+}
+@media (min-width: 976px) {
+    .about-me {
+        top: 500px;
+
+    }
+}
