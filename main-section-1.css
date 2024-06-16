@@ -1,0 +1,108 @@
+.main-section {
+    display: flex;
+}
+.my-picture-box {
+    width: 370px;
+    margin-left: 11%;
+    z-index: 3;
+    box-shadow: 5px 5px 15px;
+    position: absolute;
+}
+.my-picture {
+    width: 100%;
+    z-index: 3;
+    box-shadow: 5px 5px 15px;
+    position: absolute;
+}
+.picture {
+    position: relative;
+    height: 470px;
+    width: 100%;
+}
+.introduction {
+    position: absolute;
+    color: white;
+    font-family: roboto, arial;
+    font-weight: bold;
+    font-size: 50px;
+    max-width: 900px;
+    background-color: rgba(10, 10, 10, 0.7);
+    left: 24.5%;
+    top: 30px;
+    padding: 10px;
+    z-index: 3;
+}
+.michael {
+    color: rgb(150, 203, 2);
+}
+.description {
+    font-family: roboto, arial;
+    font-size: 23px;
+    color: white;
+    padding-left: 390px;
+    font-weight: bold;
+    padding-top: 20px;
+    letter-spacing: 0.5px;
+    z-index: 0;
+}
+.info-color-2 {
+    color: rgb(150, 203, 2);
+}
+.info-color-3 {
+    color: rgb(211, 138, 1);
+}
+.about-me {
+    top: 120px;
+    position: absolute;
+    left: 410px;
+    border: none;
+    font-family: roboto, arial;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 4;
+    padding: 5px 13px;
+    box-shadow: 5px 5px 40px black;
+    transition: padding 0.2s;
+}
+.about-me:hover {
+    padding: 7px 17px;
+}
+.about-me:active {
+    background-color: black;
+    color: white;
+}
+@media(max-width: 1500px) {
+    .introduction {
+        left: 360px;
+    }
+}
+
+@media (min-width: 1407px) and (max-width: 1482px) {
+    .about-me {
+        top: 140px;
+        left: 400px;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1406px) {
+    .about-me {
+        top: 160px;
+    }
+}
+@media (min-width: 891px) and (max-width: 1050px) {
+    .about-me {
+        top: 210px;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .description {
+        padding-left: 20px;
+    }
+    .about-me {
+        margin: 0;
+        top: 160px;
+        left: 70%;
+        padding: 4px 10px;
+    }
+}
+

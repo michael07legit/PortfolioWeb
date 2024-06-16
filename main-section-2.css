@@ -1,0 +1,61 @@
+.main-section {
+    background-color: rgb(219, 144, 31);
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+    height: 100%;
+    position: relative;
+}
+.main-title {
+    font-family: Ubuntu, arial;
+    font-size: 90px;
+    margin-bottom: 120px;
+    margin-top: 200px;
+}
+.title {
+    font-family: Ubuntu, arial;
+    font-size: 70px;
+    margin-bottom: 100px;
+    margin-top: 270px;
+}
+.info {
+    font-family: ubuntu, arial;
+    font-size: 30px;
+    margin-bottom: 20px;
+    object-position: center;
+    line-height: 40px;
+}
+img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+.introduction {
+    padding-left: 55%;
+    padding-right: 5%;
+    margin-bottom: 250px;
+}
+.study {
+    padding-right: 35%;
+    padding-left: 70px;
+    margin-bottom: 250px;
+    .main-title {
+        padding-left: 80px;
+    }
+}
+.achievements {
+    padding-left: 50%;
+    .info {
+        font-size: 40px;
+        line-height: 57px;
+    }
+}
+.description {
+    position: absolute;
+    font-family: ubuntu, arial;
+    font-size: 30px;
+    font-weight: light;
+    top: 260px;
+    left: 60px;
+}

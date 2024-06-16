@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(219, 144, 31);;
+}
+.logo {
+    display: inline-block;
+    color: white;
+    height: 35px;
+    padding-top: 18px;
+    padding-left: 30px;
+}
+.head-button, .contact-button {
+    font-family: roboto, arial;
+    color: white;
+    background-color: rgb(219, 144, 31);
+    height: 100%;
+    width: 120px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-right: 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, width 0.2s;
+}
+.contact-button {
+    margin-right: 0;
+}
+.head-button:hover {
+    background-color: white;
+    color: rgb(10, 10, 10);
+    width: 125px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: rgb(24, 24, 27);
+}
+.head-button:active,
+.contact-button:active {
+    background-color: white;
+}
+.head-button {
+    margin-right: 20px;
+}
+@media only screen and (max-width: 890px) {
+    .head-button,
+    .contact-button {
+        width: 80px;
+        font-size: 14px;
+    }
+    .head-button:hover {
+        width: 90px;
+    }
+}
+

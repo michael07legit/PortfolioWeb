@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(10, 10, 10);
+    position: relative;
+    padding-bottom: 500px;
+}
+.back-decoration {
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    height: 230px;
+    top: 300px;
+    width: 75%;
+    left: 12%;
+    box-shadow: 5px 5px 15px;
+}
+.back-decoration-2 {
+    background-color: rgb(133, 88, 4);
+    position: absolute;
+    top: -27px;
+    left: 9.8%;
+    width: 200px;
+    height: 600px;
+    z-index: 1;
+    box-shadow: 5px 5px 15px;
+}
+.back-decoration-3 {
+    background-color:rgb(81, 108, 30);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -15px;
+    right: -15px;
+    z-index: 1;
+    box-shadow: 5px 5px 15px;
+}
+.back-decoration-4 {
+    background-color: rgb(81, 108, 30);
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    bottom: -16px;
+    right: -16px;
+    z-index: -1;
+    box-shadow: 5px 5px 15px;
+}
+.back-decoration-5 {
+    background-color: rgb(81, 108, 30);
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    z-index: -1;
+    box-shadow: 5px 5px 15px;
+}
+.end-banner {
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    color: white;
+    font-family: roboto, arial;
+    font-size: small;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.end {
+    margin-bottom: 10px;
+}
+.copyright {
+    margin-top: 20px;
+}
+a:link { 
+text-decoration: none; 
+} 
+a:visited { 
+text-decoration: none; 
+} 
+a:hover { 
+text-decoration: none; 
+} 
+a:active { 
+text-decoration: none; 
+}
+@media (max-width: 1050px) {
+    .back-decoration {
+        height: 260px;
+    }
+}
+@media only screen and (max-width: 890px) {
+    body {
+        padding-bottom: 1000px;
+    }
+    .back-decoration-2 {
+        height: 550px;
+    }
+    .back-decoration {
+        position: absolute;
+        height: 230px;
+        top: 700px;
+        width: 80%;
+        box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.6),
+        25px 0px 20px -20px rgba(0,0,0,0.6),
+        0px 25px 20px -20px rgba(0,0,0,0.6),
+        -25px 0px 20px -20px rgba(0,0,0,0.6);
+    }
+}
